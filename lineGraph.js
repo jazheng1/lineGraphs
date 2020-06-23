@@ -29,8 +29,16 @@ let myLineChart = new Chart(CHART, {
       yAxes: [{
         ticks: {
           beginAtZero: true,
+        },
+        gridLines: {
+          lineWidth: 0
+       }
+      }],
+      xAxes: [{
+        gridLines: {
+          lineWidth: 0
         }
-      }]
+     }]
     },
     animation: {
       animationEasing : "easeInQuart",

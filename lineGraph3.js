@@ -29,8 +29,16 @@ let myLineChart3 = new Chart(CHART3, {
       yAxes: [{
         ticks: {
           beginAtZero: true,
+        },
+        gridLines: {
+          lineWidth: 0
+       }
+      }],
+      xAxes: [{
+        gridLines: {
+          lineWidth: 0
         }
-      }]
+     }]
     }
   }
 });

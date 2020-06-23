@@ -24,7 +24,10 @@ let myRadarChart = new Chart(radar, {
       },
       pointLabels: {
         fontSize: 20
-      }
+      },
+        gridLines: {
+          lineWidth: 0
+       }
     }
   }
 });
